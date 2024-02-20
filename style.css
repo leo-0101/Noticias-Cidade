@@ -28,6 +28,11 @@ body {
 }
 
 /* BARRA DE NAVEGAÇÃO */
+a:link, a:visited {
+  color: #b10333;
+  padding: 2px;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -86,14 +91,12 @@ body.fotos #navegacao a#fotos {
   width: 180px;
   float: left;
   margin: 0 0 20px -750px;
-  background: purple;
 }
 
 #primario {
   width: 270px;
   float: left;
   margin: 0 0 20px 195px;
-  background: green;
 }
 
 #duas-colunas #primario {
@@ -109,10 +112,125 @@ body.fotos #navegacao a#fotos {
   width: 270px;
   float: left;
   margin: 0 0 20px 15px;
-  background: yellow;
 }
 
 
+
+h2 {
+  color: #fff;
+  font-size: 1em;
+  background: #294c71;
+  padding: 5px;
+}
+
+/* Caixa */
+.caixa {
+  margin: 10px 0;
+  padding: 5px;
+  background: #f3f3f3 url(img/fundo-caixa.png);
+}
+
+.caixa-conteudo {
+  background: #fff;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+/* Menu Lateral */
+#lateral ul a {
+  color: #000;
+  font-size: 0.9em;
+  padding: 3px;
+  display: block;
+  line-height: 30px;
+  text-decoration: none;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover {
+  color: #a1a1a1;
+  padding-left: 20px;
+  background: #f9f9f9 url(img/marcador.png) no-repeat left center;
+
+}
+
+/* Formulários */
+label {
+  display: block;
+  cursor: pointer;
+}
+
+input {
+  width: 145px;
+  padding: 5px;
+  font-size: 0.9em;
+  background-color: #fff;
+}
+
+input.submit {
+  width: 80px;
+  color: #fff;
+  background-color: #b10333;
+  border: 2px solid #870529;
+}
+
+/* Imagens */
+
+img.imagem-principal {
+  width: 98%;
+  border: 3px solid #dfdfdf;
+}
+
+/* Cabeçalhos */
+h3 {
+  text-transform: uppercase;
+  display: inline;
+  font-size: 0.8em;
+  padding: 3px;
+}
+
+.destaque h3 {
+  color: #fff;
+  background: #b10333;
+}
+
+.entrevista h3 {
+  background: #de003e;
+}
+
+/* Lista de Notícias */
+#lista-noticias li {
+  padding: 2px;
+  height: 62px;
+  border-bottom: 1px solid #ccc;
+}
+
+#lista-noticias li:hover {
+  cursor: pointer;
+  background: #eee;
+}
+
+#lista-noticias li a {
+  text-decoration: none;
+}
+
+#lista-noticias li a p {
+  color: #000;
+  font-size: 0.7em;
+}
+
+#lista-noticias li a h3 {
+  padding: 0;
+  color: #3e7ab9;
+  font-size: 0.8em;
+}
+
+
+
+#lista-noticias li a img {
+  float: left;
+  margin: 5px;
+}
 
 /* Rodape */
 #container-rodape {
